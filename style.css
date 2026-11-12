@@ -1,0 +1,35 @@
+.hero{
+    background-image: url(https://png.pngtree.com/background/20230518/original/pngtree-small-coffee-shop-with-wooden-tables-and-chairs-picture-image_2645160.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 60px 20px;
+    text-align: center;
+}
+nav a{
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 15px;
+    }
+nav a.active{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.post article:first-child{
+    background-color: darkorchid;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post article{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.post article h3 + p{
+    background-color: #fffbeb;
+    padding: 8px;
+    border-radius: 4px;
+}
